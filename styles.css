@@ -1,4 +1,10 @@
 /* Style the tab buttons */
+h2{
+    background-color: #018395;
+    color: black;
+    text-align: center;
+}
+
 .tablink {
     background-color: #09cdeb;
     color: white;
@@ -24,8 +30,40 @@
     display: none;
     padding: 50px;
     text-align: center;
+    text-decoration: underline;
+}
+
+.menu{
+    width = 100%;
 }
 
 body{
     background-color: #018395;
+}
+
+.image{
+    outline-style: solid;
+    outline-color: black;
+    outline-width: medium; 
+}
+
+.container2 {
+    width: 100%;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.description{
+    background-color: #09cdeb;
+    color: white;
+    margin: auto;
+    padding-top: 10px;
+    padding: 10px;
+    width: 50%;
+    border: 3px solid black;
+    text-align: left;
+}
+
+.space{
+    margin: 100px;
 }
