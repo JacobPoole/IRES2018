@@ -1,15 +1,41 @@
 /* Style the tab buttons */
+h1{
+  color: black;
+  text-align: left;
+  padding: 14px;
+}
+
+
 h2{
     background-color: #1c396b;
     color: #09cdeb;
     text-align: center;
+    padding:10px;
+}
+
+h3{
+  background-color: #1c396b;
+  color: #09cdeb;
+  font-size: 15px;
+  align-content: left;
+  text-align: center;
+  padding: 10px;
+  margin-right: 20px;
+}
+
+h4{
+  margin:0px;
+}
+
+a:hover{
+  color: #09cdeb;
 }
 
 .tablink {
-    background-color: #365170;
-    color: #09cdeb;
+    margin-top: 20px;
+    background-color: transparent;
+    color: black;
     float: left;
-    border: 10px;
     outline-style: solid;
     outline-color: black;
     outline-width: thin;
@@ -21,7 +47,7 @@ h2{
 
 /* Change background color of buttons on hover */
 .tablink:hover {
-    background-color: #018395;
+    background-color: rgba(117, 190, 218, 0.5);
 }
 
 /* Set default styles for tab content */
@@ -41,7 +67,7 @@ body{
     background-color: #717C89;
 }
 
-.image{
+.intro-img{
     outline-style: solid;
     outline-color: black;
     outline-width: medium;
@@ -53,6 +79,9 @@ body{
     padding-left: 0px;
 }
 
+.intro-pics{
+  align-content: center;
+}
 .description{
     background-color: #365170;
     color: #09cdeb;
@@ -73,6 +102,23 @@ body{
     width: 50%;
     border: 3px solid black;
     text-align: center;
+    margin-top: 20px;
+}
+
+.card {
+     background-color: #365170;
+     color: #09cdeb;
+     padding: 10px;
+     margin-top: 20px;
+     border: 3px solid black;
+}
+
+.footer {
+     background-color: #365170;
+     color: #09cdeb;
+     padding: 20px;
+     margin-top: 20px;
+     border: 3px solid black;
 }
 
 .hspace{
