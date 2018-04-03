@@ -1,13 +1,13 @@
 /* Style the tab buttons */
 h2{
-    background-color: #018395;
-    color: black;
+    background-color: #1c396b;
+    color: #09cdeb;
     text-align: center;
 }
 
 .tablink {
-    background-color: #09cdeb;
-    color: white;
+    background-color: #365170;
+    color: #09cdeb;
     float: left;
     border: 10px;
     outline-style: solid;
@@ -38,13 +38,13 @@ h2{
 }
 
 body{
-    background-color: #018395;
+    background-color: #717C89;
 }
 
 .image{
     outline-style: solid;
     outline-color: black;
-    outline-width: medium; 
+    outline-width: medium;
 }
 
 .container2 {
@@ -54,14 +54,29 @@ body{
 }
 
 .description{
-    background-color: #09cdeb;
-    color: white;
+    background-color: #365170;
+    color: #09cdeb;
     margin: auto;
     padding-top: 10px;
     padding: 10px;
     width: 50%;
     border: 3px solid black;
     text-align: left;
+}
+
+.past-years{
+    background-color: #365170;
+    color: #09cdeb;
+    margin: auto;
+    padding-top: 10px;
+    padding: 10px;
+    width: 50%;
+    border: 3px solid black;
+    text-align: center;
+}
+
+.hspace{
+    margin: 20px;
 }
 
 .space{
