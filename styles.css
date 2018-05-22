@@ -125,6 +125,14 @@ b{
  color: #0d9fcc;
 }
 
+.galpic{
+  background-color: #365170;
+  color: #09cdeb;
+  padding: 10px;
+  margin-top: 20px;
+  border: 3px solid black;
+}
+
 .footer {
      background-color: #365170;
      color: #09cdeb;
