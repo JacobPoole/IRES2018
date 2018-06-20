@@ -131,8 +131,13 @@ b{
   background-color: #365170;
   color: #09cdeb;
   padding: 10px;
-  margin-top: 20px;
+  margin-top: 100px;
   border: 3px solid black;
+}
+
+.galpadding{
+  padding-left: 100px;
+  padding-right: 100px;
 }
 
 .footer {
@@ -150,8 +155,6 @@ b{
 .space{
     margin: 100px;
 }
-
-
 
 
 * {
