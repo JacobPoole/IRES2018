@@ -29,6 +29,15 @@ h4{
   margin:0px;
 }
 
+.navbar-nav{
+  margin:0;
+}
+
+.nav-item{
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
 a:hover{
   color: #09cdeb;
 }
@@ -170,4 +179,13 @@ b{
     -ms-transform: scale(1.5); /* IE 9 */
     -webkit-transform: scale(1.5); /* Safari 3-8 */
     transform: scale(1.5);
+}
+
+
+.dropdown li:hover{
+  visibilty: visible;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
 }
